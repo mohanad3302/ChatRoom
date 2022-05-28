@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerInterface">
+   <children>
+      <Separator layoutX="172.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="7.0" />
+      <Separator layoutX="404.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="7.0" />
+      <TextArea fx:id="onlineUsers" editable="false" layoutX="1.0" layoutY="36.0" prefHeight="362.0" prefWidth="171.0" />
+      <TextArea fx:id="BusyUsers" editable="false" layoutX="176.0" layoutY="36.0" prefHeight="362.0" prefWidth="227.0" />
+      <TextArea fx:id="OfflineUsers" editable="false" layoutX="408.0" layoutY="36.0" prefHeight="362.0" prefWidth="191.0" />
+      <Label fx:id="onlineLabel" layoutY="19.0" text="Online Users" />
+      <Label fx:id="BusyLabel" layoutX="179.0" layoutY="19.0" text="Busy Users" />
+      <Label fx:id="OfflineLabel" layoutX="411.0" layoutY="19.0" text="Offline Users" />
+   </children>
+</AnchorPane>

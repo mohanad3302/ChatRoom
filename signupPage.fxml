@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUpController">
+   <children>
+      <TextField fx:id="UserName" layoutX="43.0" layoutY="59.0" onAction="#EnterUserName" prefHeight="26.0" prefWidth="316.0" />
+      <TextField fx:id="Email" layoutX="43.0" layoutY="130.0" onAction="#EnterEmail" prefHeight="26.0" prefWidth="316.0" />
+      <TextField fx:id="PhoneNumber" layoutX="43.0" layoutY="200.0" onAction="#EnterPhonNumber" prefHeight="26.0" prefWidth="316.0" />
+      <TextField fx:id="Password" layoutX="43.0" layoutY="265.0" onAction="#EnterPassword" prefHeight="26.0" prefWidth="316.0" />
+      <Label layoutX="43.0" layoutY="41.0" text="UserName" />
+      <Label layoutX="43.0" layoutY="113.0" text="Email" />
+      <Label layoutX="43.0" layoutY="183.0" text="PhoneNumber" />
+      <Label layoutX="43.0" layoutY="248.0" text="password" />
+      <Button fx:id="Signup" layoutX="246.0" layoutY="326.0" mnemonicParsing="false" onAction="#SignUpButton" text="signUp" />
+      <Button fx:id="cancel" layoutX="307.0" layoutY="326.0" mnemonicParsing="false" onAction="#cancelButton" text="cancel" />
+   </children>
+</AnchorPane>
